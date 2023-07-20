@@ -11,7 +11,7 @@
       <h1>Sweets and chocolate survey</h1>
     </header>
     <main>
-      <form action="Resources/form.html" method="POST">
+      <form action="Resources/form.html">
         <h2>Survey</h2>
         <h3>Help us gather opinions on the best sweets and chocolate.</h3>
 
@@ -42,11 +42,14 @@
         ></textarea>
         <br />
 
-        <label for="freq">4) How often do you eat sweets or chocolate?</label
+        <label for="freq"
+          >4) On a scale of 1 to 10, where 1 is not very often (monthly or less)
+          and 10 is very often (daily), how often do you eat sweets or
+          chocolate?</label
         ><br />
-        <span>Not very often (monthly or less)</span>
+        <span>1</span>
         <input type="range" name="freq" id="freq" />
-        <span>Very often (daily)</span>
+        <span>10</span>
         <br />
         <p>5) Which of the following do you like to eat?</p>
         <div id="all-options">
